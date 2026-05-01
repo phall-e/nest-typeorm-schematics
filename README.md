@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -30,6 +29,23 @@
 
 ```bash
 $ npm install
+```
+## Build Schematics
+
+Before using the generator, build the schematics:
+
+```bash
+npm run build:schematics
+
+```
+
+## Generate Resource
+
+Run the following command to generate a new resource:
+
+```bash
+npx schematics .:resource --name=modules/admin/master-data/category --fields=code,nameEn,nameKh,description --no-dry-run
+
 ```
 
 ## Compile and run the project
@@ -107,4 +123,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 =======
 # nest-typeorm-schematics
->>>>>>> f9a715478a2ecf007a9e816a558267cda398a4db
+
